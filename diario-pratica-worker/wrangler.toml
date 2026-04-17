@@ -1,0 +1,6 @@
+name = "diario-pratica-api"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://escrituras-sagradas.pages.dev"
