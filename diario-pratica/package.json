@@ -1,0 +1,18 @@
+{
+  "name": "escrituras-diario",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "description": "Diário de Prática - Escrituras Sagradas - Cloudflare Worker com D1 e OpenAI",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "migrate": "wrangler d1 migrations apply escrituras-diario",
+    "migrate:local": "wrangler d1 migrations apply escrituras-diario --local"
+  },
+  "author": "Pedro Tiago",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^4.83.0"
+  }
+}

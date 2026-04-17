@@ -1,0 +1,12 @@
+name = "escrituras-diario"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "escrituras-diario"
+database_id = "1d053ede-c202-46f9-98fe-ed6642ceee4c"
+migrations_dir = "migrations"
+
+[vars]
+ENVIRONMENT = "production"
