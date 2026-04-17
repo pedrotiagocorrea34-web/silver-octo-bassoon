@@ -1,0 +1,8 @@
+# Copie este arquivo para .dev.vars e preencha com seus valores reais
+# NÃO commite o arquivo .dev.vars no Git!
+
+OPENAI_API_KEY=sk-proj-sua-chave-openai-aqui
+OPENAI_API_BASE=https://api.openai.com
+WHATSAPP_TOKEN=seu-token-permanente-whatsapp-aqui
+WHATSAPP_PHONE_NUMBER_ID=seu-phone-number-id-aqui
+WEBHOOK_VERIFY_TOKEN=pedro-tiago-contabilidade-2024

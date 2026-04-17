@@ -2,15 +2,17 @@
   "name": "whatsapp-chatbot-pedro",
   "version": "1.0.0",
   "main": "src/index.js",
+  "type": "module",
+  "description": "Assistente virtual WhatsApp para Pedro Tiago Contabilidade - WhatsApp Cloud API + OpenAI via Cloudflare Worker",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "tail": "wrangler tail"
+    "tail": "wrangler tail",
+    "test": "node test/test-local.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "Chatbot WhatsApp com IA para Pedro Tiago Contabilidade",
+  "keywords": ["whatsapp", "chatbot", "openai", "cloudflare-workers", "contabilidade"],
+  "author": "Pedro Tiago",
+  "license": "MIT",
   "devDependencies": {
     "wrangler": "^4.83.0"
   }
