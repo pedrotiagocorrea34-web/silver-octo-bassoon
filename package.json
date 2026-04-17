@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-chatbot-pedro",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Chatbot WhatsApp com IA para Pedro Tiago Contabilidade",
+  "devDependencies": {
+    "wrangler": "^4.83.0"
+  }
+}

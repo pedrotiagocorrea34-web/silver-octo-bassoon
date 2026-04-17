@@ -1,0 +1,21 @@
+name = "whatsapp-chatbot-pedro"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+[vars]
+# Variáveis públicas (não sensíveis)
+BOT_NAME = "Assistente Pedro Tiago Contabilidade"
+
+# As variáveis sensíveis serão configuradas como secrets:
+# WHATSAPP_TOKEN - Token de acesso do WhatsApp Cloud API
+# WHATSAPP_VERIFY_TOKEN - Token de verificação do webhook (você define)
+# OPENAI_API_KEY - Chave API da OpenAI do Pedro
+# WHATSAPP_PHONE_NUMBER_ID - ID do número de telefone do WhatsApp Business
+
+[triggers]
+routes = []
+
+# KV Namespace para armazenar histórico de conversas
+[[kv_namespaces]]
+binding = "CHAT_HISTORY"
+id = "9c8660308d4c472ba13a1232b8222d54"
